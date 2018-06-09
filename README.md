@@ -9,8 +9,7 @@ I had some questions concerning which algorithm I should use (k-means, hdbscan, 
 
 In this project, I use sklearn's agglomerative, k-means, mean-shift, dbscan, spectral clustering, as well as HDBSCAN's dbscan. So, in total 6 algorithms. And for each algorithm, I do 2 versions: one without normalization and one with mean normalization (x = (x-mean(x))/(max(x)-min(x))
 
-For simplicity sake, I have divided the code into 2 python files: One with normalizaiton and one without. This, of course, creates code duplication, but this is not of much concern to me hic et nunc.
-
+The file named doc.kml contains the data of the touristic attractions in Paris as well as their coordinates.
 
 
 
