@@ -10,6 +10,6 @@ I had some questions concerning which algorithm I should use (k-means, hdbscan, 
 In this project, I use sklearn's agglomerative, k-means, mean-shift, dbscan, spectral clustering, as well as HDBSCAN's dbscan. So, in total 6 algorithms. And for each algorithm, I do 2 versions: one without normalization and one with mean normalization (x = (x-mean(x))/(max(x)-min(x))
 
 The file named doc.kml contains the data of the touristic attractions in Paris as well as their coordinates.
-
+The file named Paris-Clustering.ipynb contains the code of the 6 algorithms and the code that extracts the data from doc.kml
 
 
