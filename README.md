@@ -1,7 +1,7 @@
 # ParisClustering
 This is my first ever GitHub project. Any kind review is well appreciated.
 
-# Clustering of different 
+# Clustering of different touristic attractions in Paris.
 
 Once, I read an interesting article( https://towardsdatascience.com/using-unsupervised-learning-to-plan-a-paris-vacation-geo-location-clustering-d0337b4210de) about clustering landmarks in Paris based on their longitude and latitude. The point? Create n clusters where each cluster contains the landmarks that should be visited on the Mth day. I found this article very interesting since I happened to be going to Paris soon and I still had no plans in mind!.
 
