@@ -9,7 +9,7 @@ In the article, the author uses sklearn's k-means and HDBSCAN to cluster the lan
 
 I had some questions concerning which algorithm I should use (k-means, hdbscan, mean-shift, agglomerative, etc...), and I also considered the question of normalizing the longitudes/latitudes axis since it appears that in Paris, the latitudes are ~=2 and the longitudes ~= 48. And I didn't want my code to be influenced by one over the other due to its larger/smaller scale.
 
-In this project, I use sklearn's agglomerative, k-means, mean-shift, dbscan, spectral clustering, as well as HDBSCAN's dbscan. So, in total 6 algorithms. And for each algorithm, I do 2 versions: one without normalization and one with mean normalization (x = (x-mean(x))/(max(x)-min(x)) and I compare.
+In this project, I use sklearn's agglomerative, k-means, mean-shift, dbscan, spectral clustering, as well as HDBSCAN's dbscan. So, in total 6 algorithms. And for each algorithm, I do 2 versions: one without normalization and one with mean normalization (x = (x-mean(x))/(max(x)-min(x)) and I compare. In some of these algorithms I get to select the number of clusters that I want, but in others (like DBSCAN) I had to select the minimal number of points for a cluster to be kept.
 
 The file named doc.kml contains the data of the touristic attractions in Paris as well as their coordinates.
 The file named Paris-Clustering.ipynb contains the code of the 6 algorithms and the code that extracts the data from doc.kml
